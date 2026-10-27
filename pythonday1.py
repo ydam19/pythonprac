@@ -20,6 +20,13 @@ for i in range(11):
         print("*", end="")
     print()
 
+# 3. 거꾸로 삼각형: i는 0~10, j는 10에서 i까지 감소
+print("\n[3] 11, 10, ... 1개")
+for i in range(11):
+    for j in range(10, i - 1, -1):
+        print("*", end="")
+    print()
+
 # 4. i를 2씩 증가: i는 0, 2, 4, 6, 8
 print("\n[4] 1, 3, 5, 7, 9개")
 for i in range(0, 10, 2):
